@@ -1,12 +1,22 @@
 import Card from "./components/card/Card";
-import Title from "./components/title/Title";
 
 const App = () => {
 	return (
 		<>
+			{/*
+			----EJEMPLO CON CHILDREN----
 			<Card>
-				<Title color='red' />
+				<Icon />
+				<Title />
+				<Text />
 			</Card>
+			----EJEMPLO CON CHILDREN----
+			Se haría demasiado largo, por lo tanto hacemos la opción de abajo
+			*/}
+
+			<Card icon='/images/icon-sedans.svg' title='SEDANS' bgColor='orange' />
+			<Card icon='/images/icon-suvs.svg' title='SUVS' bgColor='blue' />
+			<Card icon='/images/icon-luxury.svg' title='LUXURY' bgColor='green' />
 		</>
 	)
 };

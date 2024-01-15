@@ -1,8 +1,22 @@
 body {
 	font-family: sans-serif;
+	background-color: #F2F2F2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-/*
-font-family: 'Big Shoulders Display', sans-serif;
-font-family: 'Lexend Deca', sans-serif;
-*/
+#root{
+	max-width: 900px;
+	font-family: sans-serif;
+	background-color: #F2F2F2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 768px) {
+	#root{
+		flex-direction: column;
+	}
+}
