@@ -1,5 +1,14 @@
+import Card from "./components/card/Card";
+import Title from "./components/title/Title";
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+		<>
+			<Card>
+				<Title color='red' />
+			</Card>
+		</>
+	)
 };
 
 export default App;
